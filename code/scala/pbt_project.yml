@@ -2,6 +2,21 @@ name: thea.schmitt
 description: User fork
 version: 1
 author: nicki.smitham@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: nicki.smitham@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-05 08:24:27'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Lonny_Wolf:
+    name: Lonny_Wolf
+    description: Really solid info
+    createdAt: '2022-01-05 08:24:28'
+    author: nicki.smitham@yahoo.com
